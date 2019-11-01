@@ -89,31 +89,31 @@ This is running part for 1126 times to test the update number and show the histo
 The code is typically same as Problem 06, but
 ```
 while(update < 100):
-			for i in range(len(x)):
-				if np.dot(x[i], w)*y[i] <= 0:
-					w += 0.5*(x[i]*y[i]).reshape(self.Dim+1,1)
-					update += 1
-					if self.verification(x, y, w) < self.verification(x, y, wPk):
-						wPk = np.copy(w)
-		return wPk
+	for i in range(len(x)):
+		if np.dot(x[i], w)*y[i] <= 0:
+			w += 0.5*(x[i]*y[i]).reshape(self.Dim+1,1)
+			update += 1
+			if self.verification(x, y, w) < self.verification(x, y, wPk):
+				wPk = np.copy(w)
+return wPk
 ```
 This show the pocket process
 ```
 def verification(self, x, y, w):
-		errorCount = 0
-		for i in range(len(x)):
-			if np.dot(x[i], w)*y[i] <= 0:
-				errorCount += 1
-		return errorCount/len(x)
+	errorCount = 0
+	for i in range(len(x)):
+		if np.dot(x[i], w)*y[i] <= 0:
+			errorCount += 1
+	return errorCount/len(x)
 ```
 This is the verification function.
 #### Problem 08
 ```
 while(update < 100):
-			for i in range(len(x)):
-				if np.dot(x[i], w)*y[i] <= 0:
-					w += (0.5*x[i]*y[i]).reshape(self.Dim+1,1)
-					update += 1
-		return w
+	for i in range(len(x)):
+		if np.dot(x[i], w)*y[i] <= 0:
+			w += (0.5*x[i]*y[i]).reshape(self.Dim+1,1)
+			update += 1
+return w
 ```
 The part of PLA update 100 times.
