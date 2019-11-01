@@ -5,26 +5,26 @@ File HW01-6.py, HW01-7.py, and HW01-8.py, is corresponding to Problem 6, 7, and 
 ### Environment
 
 + python3.7
-	+ numpy
+	+ numpy  
 	`$ pip3 install numpy`	
-	+ matplotlib
+	+ matplotlib  
 	`$ pip3 install matplotlib`
 
 ### How to run the code:
 
-For Windows:
-Open Anaconda shell then go to file folder
-`$ cd ~/path/to/the/folder`
-then type 
-`$ python3 *.py #* is the file name`
-to run the code.
+For Windows:  
+Open Anaconda shell then go to file folder  
+`$ cd ~/path/to/the/folder`  
+then type  
+`$ python3 *.py #* is the file name`  
+to run the code.  
 
-For MacOS or Linux:
-Open terminal then go to file folder
-`cd ~/path/to/the/folder`
-then type 
-`python3 *.py #* is the file name`
-to run the code.
+For MacOS or Linux:   
+Open terminal then go to file folder   
+`cd ~/path/to/the/folder`  
+then type  
+`python3 *.py #* is the file name`  
+to run the code.   
 
 
 ### Code structure
