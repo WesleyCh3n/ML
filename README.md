@@ -48,7 +48,7 @@ class PLA(object):
 		x = np.c_[np.ones((data.shape[0],1),dtype = float), data[:,:self.Dim]]
 		y = data[:,self.Dim]
 		return x,y
-
+ 
 	def iteration(self):
 		x, y = self.preprocess()
 		w = np.zeros((self.Dim+1,1))
