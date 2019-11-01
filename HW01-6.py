@@ -43,6 +43,7 @@ if __name__ == "__main__":
 	count = []
 	for i in range(1126):
 		count.append(result.iteration())
+		print(f'{i}: Iteration Finish')
 	print("Finish")
 
 	print(f"Average number of update is {sum(count)/1126}")

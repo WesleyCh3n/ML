@@ -51,11 +51,10 @@ if __name__ == "__main__":
 	count = []
 	for i in range(1126):
 		w = result.iteration()
-		print(i)
-		print(result.verification(testX, testY, w))
+		print(f'{i}: Iteration Finish')
 		count.append(result.verification(testX, testY, w))
 	print("Finish")
-	print(f"Average number of update is {sum(count)/1126.0}")
+	print(f"Average error rate is {sum(count)/1126.0}")
 
 	plt.hist(count)
 	plt.xlabel('Error Rate')

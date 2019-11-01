@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class pocketPLA(object):
-	"""This is the PLA pocket version class, 
+	"""This is the PLA modified version class, 
 	which user need to input the data path, the dimension of x features, and random seed
 	Build in function include preprocess the x input and y output,
 	also the PLA algorithm in iteration,
@@ -47,9 +47,10 @@ if __name__ == "__main__":
 	count = []
 	for i in range(1126):
 		w = result.iteration()
+		print(f'{i}: Iteration Finish')
 		count.append(result.verification(testX, testY, w))
 	print("Finish")
-	print(f"Average number of update is {sum(count)/1126}")
+	print(f"Average error rate is {sum(count)/1126}")
 
 	plt.hist(count)
 	plt.xlabel('Error Rate')
