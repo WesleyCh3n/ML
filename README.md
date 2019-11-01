@@ -65,7 +65,7 @@ class PLA(object):
 		return update
 ```
 This is a class to do the PLA. `preprocess()` will sperate the `.dat` to label x and label y matrix. Then `iteration()` will do the percetron learning algorithm.
-```
+``` 
 if __name__ == "__main__":	
 	result = pocketPLA('hw1_7_train.dat', 4, True)
 	testX, testY = result.preprocess('hw1_7_test.dat')
