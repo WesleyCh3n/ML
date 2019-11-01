@@ -1,8 +1,8 @@
-###Description:
+### Description:
 
 File HW01-6.py, HW01-7.py, and HW01-8.py, is corresponding to Problem 6, 7, and 8. Three file use python3 to write, and import numpy and matpltlib as the external liberary, so they should be installed then will be run properly.
 
-###Environment
+### Environment
 
 + python3.7
 	+ numpy
@@ -10,7 +10,7 @@ File HW01-6.py, HW01-7.py, and HW01-8.py, is corresponding to Problem 6, 7, and 
 	+ matplotlib
 	`$ pip3 install matplotlib`
 
-###How to run the code:
+### How to run the code:
 
 For Windows:
 Open Anaconda shell then go to file folder
@@ -27,8 +27,8 @@ then type
 to run the code.
 
 
-###Code structure
-####Problem 06
+### Code structure
+#### Problem 06
 ```
 class PLA(object):
 	"""This is the PLA class, 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 	plt.show()
 ```
 This is running part for 1126 times to test the update number and show the histogram.
-####Problem 07
+#### Problem 07
 The code is typically same as Problem 06, but
 ```
 while(update < 100):
@@ -107,7 +107,7 @@ def verification(self, x, y, w):
 		return errorCount/len(x)
 ```
 This is the verification function.
-####Problem 08
+#### Problem 08
 ```
 while(update < 100):
 			for i in range(len(x)):
