@@ -47,7 +47,8 @@ if __name__ == "__main__":
 	print("Finish")
 
 	print(f"Average number of update is {sum(count)/1126}")
-	plt.hist(count)
+
+	plt.hist(count, color='gray')
 	plt.xlabel('Number of updates')
 	plt.ylabel('Frequency of number')
 	plt.show()
