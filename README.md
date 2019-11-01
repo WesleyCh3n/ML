@@ -16,14 +16,14 @@ For Windows:
 Open Anaconda shell then go to file folder  
 `$ cd ~/path/to/the/folder`  
 then type  
-`$ python3 *.py #* is the file name`  
+`$ python3 *.py    # * is the file name`  
 to run the code.  
 
 For MacOS or Linux:   
 Open terminal then go to file folder   
-`cd ~/path/to/the/folder`  
+`$ cd ~/path/to/the/folder`  
 then type  
-`python3 *.py #* is the file name`  
+`$ python3 *.py    # * is the file name`  
 to run the code.   
 
 
