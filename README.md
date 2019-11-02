@@ -1,8 +1,8 @@
 ### Description:
 
-File HW01-6.py, HW01-7.py, and HW01-8.py, is corresponding to Problem 6, 7, and 8. Three file use python3 to write, and import numpy and matpltlib as the external liberary, so they should be installed then will be run properly.
+File `HW01-6.py`, `HW01-7.py`, and `HW01-8.py`, is corresponding to Problem 6, 7, and 8. Three file use python3 to write, and import numpy and matpltlib as the external liberary, so they should be installed then will be run properly.
 
-### Environment
+### Environment:
 
 + python3.7
     + numpy  
@@ -27,7 +27,7 @@ then type
 to run the code.   
 
 
-### Code structure
+### Code structure:
 #### Problem 06
 ```
 class PLA(object):
