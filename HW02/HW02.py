@@ -5,6 +5,7 @@ import time as t
 class das():
     def __init__(self):
         self.obj = 12 
+        self.obj2 = None
     def __str__(self):
         return "Testing"
 
