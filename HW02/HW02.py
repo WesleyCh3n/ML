@@ -9,9 +9,5 @@ class das():
         return "Testing"
 
 if __name__ == "__main__":
-    ts = t.time()
     a = das()
-    print(a)
-    te = t.time()
-    print(f"te - ts = {te-ts:.2f}")
-    print(a.obj)
+    print([i for i in range(-10, 10)])
