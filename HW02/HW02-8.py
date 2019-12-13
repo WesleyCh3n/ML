@@ -17,7 +17,7 @@ def getTheta(x):
     return theta
 
 def decision_stump():
-    data_size = 20
+    data_size = 2000
     iteration = 1000
     E_in = 0
     E_out = 0
